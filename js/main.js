@@ -31,10 +31,10 @@ $(function() {
     $(window).scroll(function() {
         var scroll = $(window).scrollTop();
 
-        if (scroll >= 500) {
-            header.addClass("fixed fadeInDown");
+        if (scroll >= 150) {
+            header.addClass("sticky");
         } else {
-            header.removeClass("fixed fadeInDown");
+            header.removeClass("sticky");
         }
     });
 });

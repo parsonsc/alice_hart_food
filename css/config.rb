@@ -17,6 +17,8 @@ output_style = :compressed
 # To disable debugging comments that display the original location of your selectors. Uncomment:
 line_comments = false
 
+asset_cache_buster = :none
+cache = false
 
 # If you prefer the indented syntax, you might want to regenerate this
 # project again passing --syntax sass, or you can uncomment this:
