@@ -1,0 +1,28 @@
+// Alice Hart Food
+// Grid Gallery STYLESHEET
+
+.grid_gallery {
+
+}
+.grid_gallery article {
+	display: block;
+	float: left;
+	overflow: hidden;
+	padding: 25px 0;
+	background: $footer_grey;
+}
+.grid_gallery article.small_block {
+	width: 50%;
+}
+.grid_gallery article.big_block {
+	width: 100%;
+}
+    
+@include respond-to(tablet) {
+
+
+}
+@include respond-to(mobile) {
+	
+
+}

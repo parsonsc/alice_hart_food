@@ -2,8 +2,12 @@
 // FOOTER STYLESHEET
 
 
-footer.site_header {
-	
+footer.site_footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background: $footer_grey;
+	height: 100px;
 }
 
 @include respond-to(tablet) {

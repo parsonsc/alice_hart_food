@@ -1,0 +1,25 @@
+// Alice Hart Food
+// CTA STYLESHEET
+
+a.site_cta {
+	text-decoration: none;
+}
+
+
+// Read more CTA
+a.read_more {
+	display: block;
+	clear: both;
+	padding: 25px 0;
+
+}
+
+    
+@include respond-to(tablet) {
+
+
+}
+@include respond-to(mobile) {
+	
+
+}

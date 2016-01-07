@@ -1,0 +1,26 @@
+// Alice Hart Food
+// Homepage STYLESHEET
+
+// About section
+.about_alice {
+	padding: 50px 0;
+	text-align: center;
+	color: #52626f;
+	
+}
+.about_alice p.lead {
+	width: 700px;
+	margin: 0 auto;
+	font-size: 30px;
+	font-weight: 300;
+    line-height: 1.4em;
+}
+    
+@include respond-to(tablet) {
+
+
+}
+@include respond-to(mobile) {
+	
+
+}
