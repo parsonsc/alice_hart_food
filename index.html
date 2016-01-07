@@ -23,12 +23,12 @@
             	</div>
             	<nav class="site_nav">
             		<ul>            			
-            			<li><a href="#about_alice">lorem</a></li>
-            			<li><a href="#books">lorem</a></li>
-            			<li><a href="#styling">lorem</a></li>
-            			<li><a href="#writing">lorem</a></li>
-            			<li><a href="#contact">lorem</a></li>
-            			<li><a href="#">lorem</a></li>
+            			<li><a href="#about_alice">About</a></li>
+            			<li><a href="#books">Books</a></li>
+            			<li><a href="#styling">Food writing</a></li>
+            			<li><a href="#writing">Food styling</a></li>
+            			<li><a href="#contact">Blog</a></li>
+            			<li><a href="#">Contact</a></li>
             		</ul>
             	</nav>
             </div>
@@ -49,16 +49,60 @@
           		</div>
           	</section>
 
-          	<section class="grid_gallery" id="">
-          		<article class="small_block">
-          			
+          	<section class="grid_gallery os-animation" id="" data-os-animation="fadeIn" data-os-animation-delay="0.2s">
+          		<article class="small_block block_01 os-animation" id="" data-os-animation="fadeIn" data-os-animation-delay="0s">
+          			<a href="#">
+	          			<figure>
+	          				<figcaption>
+	          					<h3>Lorem Ipsum</h3>
+	          					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+	          					Read more
+	          				</figcaption>
+	          			</figure>
+	          		</a>
           		</article>
-          		<article class="small_block">
-          			
+          		<article class="small_block block_02 os-animation" id="" data-os-animation="fadeIn" data-os-animation-delay="0.4s">
+          			<a href="#">
+	          			<figure>
+	          				<figcaption>
+	          					<h3>Lorem Ipsum</h3>
+	          					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+	          					Read more
+	          				</figcaption>
+	          			</figure>
+	          		</a>
           		</article>
 
-          		<article class="big_block">
-          			
+          		<article class="big_block block_03 os-animation" id="" data-os-animation="fadeIn" data-os-animation-delay="0.2s">
+          			<ul class="slideshow">
+					  	<li class="slide_01">
+						  	<figure class="slide_copy">
+						  		<figcaption>
+						  			<h3>Lorem Ipsum</h3>
+						  			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+						  			<a href="#">Read more</a>
+						  		</figcaption>
+						  	</figure>
+					  	</li>
+						<li class="slide_02">
+						  	<figure class="slide_copy">
+						  		<figcaption>
+						  			<h3>Lorem Ipsum</h3>
+						  			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+						  			<a href="#">Read more</a>
+						  		</figcaption>
+						  	</figure>
+						</li>
+					  	<li class="slide_03">
+						  	<figure class="slide_copy">
+						  		<figcaption>
+							  		<h3>Lorem Ipsum</h3>
+							  		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+							  		<a href="#">Read more</a>
+							  	</figcaption>
+							</figure>
+					  	</li>
+					</ul>
           		</article>
           	</section>
 
@@ -88,16 +132,23 @@
             
         </div>
         <!-- End main content -->
-        <footer class="site_footer">
+        <!-- <footer class="site_footer">
             <div class="inner_content">
             	<p>lorem</p>
             </div>
-        </footer>
+        </footer> -->
     </div>
     <script src="js/jquery.js"></script>
     <script src="js/waypoint.js"></script>
+    <script src="js/jquery.bxslider.min.js"></script>
     <script src="js/main.js"></script>
     <script>
+    	$('.slideshow').bxSlider({
+		  auto: true,
+		  speed: 1500,
+		  pause: 10000,
+		  pager: false
+		});
 	   //  (function(i, s, o, g, r, a, m) {
 	   //      i['GoogleAnalyticsObject'] = r;
 	   //      i[r] = i[r] || function() {

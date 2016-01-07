@@ -8,8 +8,13 @@
 	display: block;
 	float: left;
 	overflow: hidden;
-	padding: 25px 0;
-	background: $footer_grey;
+	background-color: $footer_grey;
+	min-height: 400px;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
 }
 .grid_gallery article.small_block {
 	width: 50%;
@@ -17,7 +22,74 @@
 .grid_gallery article.big_block {
 	width: 100%;
 }
-    
+.block_01 {
+	background-image: url(../images/food.jpg);
+}   
+.block_02 {
+	background-image: url(../images/food_2.jpg);
+} 
+.block_03 {
+	
+}
+
+
+.grid_gallery article figure {
+	padding: 0;
+	margin: 0;
+	color: white;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: none;
+}
+.grid_gallery article:hover figure {
+	display: block;
+}
+.grid_gallery article figure a {
+	color: white;
+}
+.grid_gallery article figure figcaption {
+	padding: 50px;
+	position: absolute;
+	bottom: 0;
+}
+
+
+// Slideshow 
+.slideshow li {
+	min-height: 400px;
+	background-size: 100%;
+}
+.slide_01 {
+	background-image: url(../images/slide_01.jpg);
+}
+.slide_02 {
+	background-image: url(../images/slide_02.jpg);
+}
+.slide_03 {
+	background-image: url(../images/slide_03.jpg);
+}
+
+.slideshow li figure {
+	display: block;
+}
+.slideshow li figure figcaption {
+	color: white;
+	text-align: center;
+	margin: 105px auto 0;
+	font-size: 16px;
+	width: 100%;
+	bottom: 75px;
+}
+.slideshow li .slide_copy h3 {
+	font-size: 45px;
+}
+.slideshow li .slide_copy a {
+	color: white;
+}
+
+
 @include respond-to(tablet) {
 
 
