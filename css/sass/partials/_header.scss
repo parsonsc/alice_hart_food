@@ -11,40 +11,79 @@ header.site_header {
 	top: 0;
 	background: transparent;
 	z-index: 9;
-	transition: all 0.5s ease-in-out;
+	transition: all 0.4s ease-in-out;
 }
 header.site_header.sticky {
-	transition: all 0.5s ease-in-out;
+	transition: all 0.4s ease-in-out;
 	background: $white;
 	border-bottom: 1px solid $footer_grey;
 }
-header.site_header.sticky nav.site_nav ul li {
+
+// Site logo
+.logo {
+	float: left;
+	display: block;
+	width: 15%;
 	height: 65px;
 	line-height: 65px;
+	overflow: hidden;
+}
+
+// Site nav
+header.site_header nav.site_nav {
+	display: block;
+	float: right;
+	overflow: hidden;
+	width: 50%;
+	text-align: center;
 }
 header.site_header nav.site_nav ul {
 	padding: 0;
 	margin: 0;
 }
 header.site_header nav.site_nav ul li {
-	display: block;
-	position: relative;
-	float: left;
-    width: 14.2%;
-    text-align: center;
-    height: 100px;
-    line-height: 100px;
-}
-header.site_header.sticky nav.site_nav ul li {
 	height: 65px;
 	line-height: 65px;
+	display: block;
+	float: left;
+	width: 16.6%;
 }
 header.site_header nav.site_nav ul li a {
-	color: black;
-	display: block;
 	text-decoration: none;
-	outline: 0;
+	padding: 0 0 5px;
 }
+header.site_header nav.site_nav ul li a.active {
+	border-bottom: 2px solid black;
+}
+
+
+// header.site_header.sticky nav.site_nav ul li {
+// 	height: 65px;
+// 	line-height: 65px;
+// }
+// header.site_header nav.site_nav ul {
+// 	padding: 0;
+// 	margin: 0;
+// }
+// header.site_header nav.site_nav ul li {
+// 	display: block;
+// 	position: relative;
+// 	float: right;
+//     width: 14.2%;
+//     text-align: center;
+//     height: 100px;
+//     line-height: 100px;
+// }
+// header.site_header.sticky nav.site_nav ul li {
+// 	height: 65px;
+// 	line-height: 65px;
+// }
+// header.site_header nav.site_nav ul li a {
+// 	color: black;
+// 	display: block;
+// 	text-decoration: none;
+// 	outline: 0;
+// }
 
 
 .hero_banner {
@@ -53,6 +92,7 @@ header.site_header nav.site_nav ul li a {
 	height: 100vh;
 	display: block;
 	background: grey;
+	top: 0;
 }
 .hero_banner .hero_banner_bg {
 	display: block;
@@ -66,6 +106,8 @@ header.site_header nav.site_nav ul li a {
 	background-attachment: fixed;
 
 }
+
+
 
 
 
