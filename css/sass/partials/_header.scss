@@ -1,0 +1,66 @@
+// Alice Hart Food
+// HEADER STYLESHEET
+
+
+header.site_header {
+	width: 100%;
+	height: 100px;
+	overflow: hidden;
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 0;
+	background: transparent;
+	z-index: 9;
+	-webkit-animation-duration: 0.5s;
+  	animation-duration: 0.5s;
+}
+header.site_header.fixed {
+	-webkit-animation-duration: 0.5s;
+  	animation-duration: 0.5s;
+	position: fixed;
+	background: red;
+	border-bottom: 1px solid $footer_grey;
+}
+header.site_header nav.site_nav ul {
+	padding: 0;
+	margin: 0;
+}
+header.site_header nav.site_nav ul li {
+	display: block;
+	position: relative;
+	float: left;
+    width: 14.2%;
+    text-align: center;
+    height: 100px;
+    line-height: 100px;
+}
+header.site_header nav.site_nav ul li a {
+	color: black;
+	display: block;
+	text-decoration: none;
+	outline: 0;
+}
+
+
+.hero_banner {
+	position: relative;
+	width: 100%;
+	display: block;
+	height: 500px;
+	background: grey;
+}
+
+
+
+
+
+    
+@include respond-to(tablet) {
+
+
+}
+@include respond-to(mobile) {
+	
+
+}
