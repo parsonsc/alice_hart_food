@@ -27,7 +27,7 @@ function onScrollInit( items, trigger ) {
       osElement.addClass('animated').addClass(osAnimationClass);
       },{
         triggerOnce: true,
-        offset: '90%'
+        offset: '95%'
     });
   });
 }
@@ -63,9 +63,11 @@ $(function() {
 	});
 });
 
-$('header.site_header nav.site_nav ul li a').click(function(e) {
+$('header.site_header.mobile nav.site_nav ul li a').click(function(e) {
   e.preventDefault();
-  $('header.site_header nav.site_nav').removeClass('active');        
+  $('header.site_header.mobile nav.site_nav').removeClass('active');        
 });  
 
-
+var sticky = new Waypoint.Sticky({
+  element: $('.book_sidebar')[0]
+})

@@ -3,13 +3,24 @@
 
 
 footer.site_footer {
-	position: absolute;
-	bottom: 0;
+	clear: both;
+	position: relative;
+	display: block;
+	overflow: hidden;
 	width: 100%;
 	background: $footer_grey;
-	height: 100px;
+	padding: 15px 0;
+	color: white;
 }
 
+footer.site_footer .back_top {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+footer.site_footer .back_top a {
+	color: white;
+}
 @include respond-to(tablet) {
 
 

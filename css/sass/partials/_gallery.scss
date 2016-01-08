@@ -16,6 +16,9 @@
 	background-position: center center;
 	position: relative;
 }
+.grid_gallery article.three_blocks {
+	width: 33.3333333%;
+}
 .grid_gallery article.small_block {
 	width: 50%;
 }
@@ -96,6 +99,7 @@
 		min-height: 350px;
 		border-bottom: 1px solid white;
 	}
+	.grid_gallery article.three_blocks,
 	.grid_gallery article.small_block {
 		width: 100%;
 	}

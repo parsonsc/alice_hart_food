@@ -1,0 +1,78 @@
+// Alice Hart Food
+// BOOKS STYLESHEET
+
+.books {
+
+}
+
+.book .book_content img {
+	width: 100%;
+	margin: 0 auto 25px;
+}
+.book .book_content p {
+	font-size: 20px;
+	width: 960px;
+	margin: 10px auto;
+	text-align: center;
+}
+.book .book_content a {
+	clear: both;
+	display: block;
+}
+
+
+// Book idea page 2
+.book_02 .book_content img {
+	width: 100%;
+	margin: 0 auto 25px;
+}
+.book_02 .book_info p {
+	font-size: 20px;
+	width: 960px;
+	margin: 10px auto;
+	text-align: center;
+}
+.book_02 .book_content a {
+	clear: both;
+	display: block;
+}
+
+.book_02 aside.book_sidebar {
+	width: 100%;
+	overflow: hidden;
+	padding: 2%;
+	display: block;
+	float: left;
+}
+.book_02 .sticky-wrapper {
+	width: 26%;
+	float: left;
+}
+.book_02 aside.book_sidebar.stuck {
+	position: fixed;
+	top: 86px;
+	padding: 0;
+	width: 26%;
+}
+.book_02 .book_info {
+	width: 66%;
+	overflow: hidden;
+	padding: 2%;
+	display: block;
+	float: left;
+}
+
+@include respond-to(tablet) {
+	.book .book_content p {
+		font-size: 18px;
+		width: 100%;
+	}
+
+}
+@include respond-to(mobile) {
+	.book .book_content p {
+		font-size: 16px;
+		width: 100%;
+	}
+
+}
