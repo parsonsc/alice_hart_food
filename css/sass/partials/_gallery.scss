@@ -1,8 +1,8 @@
 // Alice Hart Food
 // Grid Gallery STYLESHEET
 
-.grid_gallery {
-
+.main_content section.grid_gallery {
+	padding: 0;
 }
 .grid_gallery article {
 	display: block;
@@ -29,10 +29,8 @@
 	background-image: url(../images/food_2.jpg);
 } 
 .block_03 {
-	
+	background-image: url(../images/slide_01.jpg);
 }
-
-
 .grid_gallery article figure {
 	padding: 0;
 	margin: 0;
@@ -54,7 +52,6 @@
 	position: absolute;
 	bottom: 0;
 }
-
 
 // Slideshow 
 .slideshow li {
@@ -95,6 +92,41 @@
 
 }
 @include respond-to(mobile) {
-	
+	.grid_gallery article {
+		min-height: 350px;
+		border-bottom: 1px solid white;
+	}
+	.grid_gallery article.small_block {
+		width: 100%;
+	}
+
+	.grid_gallery article figure {
+		display: block;
+	}
+	.grid_gallery article:hover figure {
+		display: block;
+	}
+	.grid_gallery article figure a {
+		color: white;
+	}
+	.grid_gallery article figure figcaption {
+		padding: 4%;
+		position: absolute;
+		bottom: 0;
+	}
+
+	// Slideshow 
+	.slideshow li {
+		min-height: 400px;
+		background-size: cover;
+	}		
+	.slideshow li figure figcaption {
+		margin: 105px auto 0;
+		width: 92%;
+		bottom: 4%;
+	}
+	.slideshow li .slide_copy h3 {
+		font-size: 34px;
+	}
 
 }

@@ -8,10 +8,14 @@ a.site_cta {
 
 // Read more CTA
 a.read_more {
-	display: block;
+	display: inline-block;
 	clear: both;
-	padding: 25px 0;
-
+	margin: 10px auto;
+	padding: 10px 35px;
+	border: 1px solid $font;
+	&:hover {
+		// border: 1px solid $font;
+	}
 }
 
     

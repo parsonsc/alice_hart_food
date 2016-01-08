@@ -1,0 +1,105 @@
+// Alice Hart Food
+// FORM STYLESHEET
+
+form .form_item {
+	display: block;
+	width: 100%;
+	clear: both;
+	margin: 0 auto;
+	padding: 10px 0;
+	overflow: hidden;
+	font-size: 14px; 
+    margin-bottom: 2.5%;
+}
+form .form_item label {
+	position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+    display: inline-block;
+    max-width: 100%;
+    font-weight: 700;
+}
+form .form_item input,
+form .form_item textarea,
+form .form_item select {
+	width: 378px;
+	padding: 10px;
+	box-shadow: none;
+	outline: 0;
+	border: 1px solid #ccc;
+	display: block;
+	position: relative;
+	height: 3em;
+	font-size: 14px;
+	text-align: left;
+	background: white;
+	border-radius: 0!important;
+}
+form .form_item textarea {
+	height: 10em;
+}
+form .form_item select {
+	border-radius: 0;
+}
+
+// Submit button 
+.form_item button.submit_btn {
+	box-shadow: none;
+	outline: 0;
+	border: 1px solid #ccc;
+	display: block;
+	position: relative;
+	font-size: 14px;
+	background: white;
+	border-radius: 0;
+	margin: 0 auto;
+	height: 3em;
+	width: 150px;
+	padding: 10px;
+	transition: all 0.4s ease-in-out;
+	&:hover {
+		opacity: 0.8;
+	}
+}
+
+// Contact form 
+form.contact_form {
+	width: 400px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0;
+	position: relative;
+}
+    
+@include respond-to(tablet) {
+
+
+}
+@include respond-to(mobile) {
+
+	form .form_item {
+		width: 100%;
+		padding: 10px 0;
+	}
+	form .form_item input,
+	form .form_item textarea,
+	form .form_item select {
+		width: 95%;
+		padding: 10px 2%;
+	}
+
+	// Submit button 
+	button.submit_btn {
+
+	}
+	// Contact form 
+	form.contact_form {
+		width: 100%;		
+	}
+
+}
