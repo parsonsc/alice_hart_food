@@ -62,6 +62,16 @@
 	float: left;
 }
 
+
+// Book idea 3
+
+.book_03 {
+	
+}
+.book_03 .column {
+
+}
+
 @include respond-to(tablet) {
 	.book .book_content p {
 		font-size: 18px;

@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"small_",
+				"small_block"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
 				"site",
 				"site_nav"
 			],
@@ -100,14 +112,6 @@
 				"individualnewsarticle"
 			],
 			[
-				"border",
-				"border-right"
-			],
-			[
-				"text",
-				"text-decoration"
-			],
-			[
 				"news",
 				"news-grid-footer"
 			],
@@ -183,6 +187,94 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/Users/chrisparsons/Desktop/alice_hart_food/book_03.html",
+			"settings":
+			{
+				"buffer_size": 8181,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/chrisparsons/Desktop/alice_hart_food/css/sass/partials/_books.scss",
+			"settings":
+			{
+				"buffer_size": 1108,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/Users/chrisparsons/Desktop/alice_hart_food/css/sass/partials/_framework.scss",
+			"settings":
+			{
+				"buffer_size": 3061,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/Users/chrisparsons/Desktop/alice_hart_food/css/sass/partials/_homepage.scss",
+			"settings":
+			{
+				"buffer_size": 589,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/Users/chrisparsons/Desktop/alice_hart_food/css/sass/partials/_form.scss",
+			"settings":
+			{
+				"buffer_size": 1642,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/Users/chrisparsons/Desktop/alice_hart_food/css/sass/aliceHart.scss",
+			"settings":
+			{
+				"buffer_size": 547,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/Users/chrisparsons/Desktop/alice_hart_food/css/sass/partials/_header.scss",
+			"settings":
+			{
+				"buffer_size": 5035,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/Users/chrisparsons/Desktop/alice_hart_food/css/sass/mixins/_mixins.scss",
+			"settings":
+			{
+				"buffer_size": 1366,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/Users/chrisparsons/Desktop/alice_hart_food/css/sass/partials/_gallery.scss",
+			"settings":
+			{
+				"buffer_size": 2359,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/Users/chrisparsons/Desktop/alice_hart_food/css/sass/partials/_cta.scss",
+			"settings":
+			{
+				"buffer_size": 365,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/Users/chrisparsons/Desktop/alice_hart_food/js/main.js",
+			"settings":
+			{
+				"buffer_size": 2096,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -192,7 +284,7 @@
 	"command_palette":
 	{
 		"height": 392.0,
-		"last_filter": "pack",
+		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -233,6 +325,16 @@
 	],
 	"file_history":
 	[
+		"/Users/chrisparsons/Desktop/alice_hart_food/about.html",
+		"/Users/chrisparsons/Desktop/alice_hart_food/book_02.html",
+		"/Users/chrisparsons/Desktop/alice_hart_food/dropdown.html",
+		"/Users/chrisparsons/Desktop/alice_hart_food/books.html",
+		"/Users/chrisparsons/Desktop/alice_hart_food/food-writing.html",
+		"/Users/chrisparsons/Desktop/alice_hart_food/blog.html",
+		"/Users/chrisparsons/Desktop/alice_hart_food/css/sass/partials/_animate.scss",
+		"/Users/chrisparsons/Desktop/alice_hart_food/css/sass/mixins/_colour_palette.scss",
+		"/Users/chrisparsons/Desktop/alice_hart_food/holding.html",
+		"/Users/chrisparsons/Desktop/alice_hart_food/css/sass/mixins/_mixins.scss",
 		"/Users/chrisparsons/Desktop/alice_hart/css/sass/partials/_animate.scss",
 		"/Users/chrisparsons/Desktop/alice_hart/js/waypoint.js",
 		"/Users/chrisparsons/Desktop/alice_hart/holding.html",
@@ -350,21 +452,11 @@
 		"/Users/chrisparsons/Downloads/CreativeButtons/index.html",
 		"/Users/chrisparsons/Downloads/CreativeButtons/css/component.css",
 		"/Users/chrisparsons/Sites/costa/costa-aem-ui/src/searchresults.html",
-		"/Users/chrisparsons/Sites/costa/costa-aem-ui/dev/scss/vendor/bootstrap/_grid.scss",
-		"/Users/chrisparsons/Sites/costa/costa-aem-ui/dev/scss/utils/_helpers.scss",
-		"/Users/chrisparsons/Sites/costa/costa-aem-ui/dev/scss/components/heading.scss",
-		"/Users/chrisparsons/Desktop/test.html",
-		"/Users/chrisparsons/Sites/costa/costa-aem-ui/src/egiftingthree.html",
-		"/Users/chrisparsons/Sites/costa/costa-aem-ui/src/egiftingtwo.html",
-		"/Users/chrisparsons/Sites/costa/costa-aem-ui/src/egiftingfour.html",
-		"/Users/chrisparsons/Sites/costa/costa-aem-ui/src/egiftingone.html",
-		"/Users/chrisparsons/Sites/costa/costa-aem-ui/dev/scss/form/_textarea.scss",
-		"/Users/chrisparsons/Sites/costa/costa-aem-ui/src/js/app/form/field.js",
-		"/Users/chrisparsons/Sites/costa/costa-aem-ui/src/egiftingthanks.html"
+		"/Users/chrisparsons/Sites/costa/costa-aem-ui/dev/scss/vendor/bootstrap/_grid.scss"
 	],
 	"find":
 	{
-		"height": 25.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -380,6 +472,25 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"sticky",
+			";\n",
+			"#menu-item-29",
+			"three_blocks",
+			"books",
+			"Books",
+			"books",
+			"delay",
+			"\"></article>",
+			"text",
+			"><a",
+			"$color",
+			"div-item",
+			"form-item",
+			"<div class=\"block_inner\">\n          				\n          			</div>",
+			"wrapper",
+			"nav a'",
+			"#menu-center",
+			"height: 65px;\n	line-height: 65px;",
 			"#element-to-animate",
 			".block-type-promo-ops",
 			"ops",
@@ -488,26 +599,7 @@
 			"header.header.desktop span i",
 			".terms",
 			".story-container",
-			"248",
-			"350x245",
-			"350x248",
-			".image-grid",
-			"249",
-			"149",
-			"150",
-			"50",
-			"150",
-			"50",
-			"<p><strong></strong></p>",
-			"Back to top",
-			"|</a>",
-			"form-field-checkbox",
-			"form-field-textfield",
-			"../",
-			"faq-one",
-			"fadeIn",
-			".form-field-selectbox.has--input .form-field-label",
-			"red"
+			"248"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -525,8 +617,327 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/Users/chrisparsons/Desktop/alice_hart_food/book_03.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8181,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3315,
+								3326
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 971.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/chrisparsons/Desktop/alice_hart_food/css/sass/partials/_books.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1108,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								915,
+								915
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 491.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/chrisparsons/Desktop/alice_hart_food/css/sass/partials/_framework.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3061,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1173,
+								1173
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1132.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/chrisparsons/Desktop/alice_hart_food/css/sass/partials/_homepage.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 589,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								337,
+								337
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 52.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Users/chrisparsons/Desktop/alice_hart_food/css/sass/partials/_form.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1642,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1165,
+								1165
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 863.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/Users/chrisparsons/Desktop/alice_hart_food/css/sass/aliceHart.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 547,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								516,
+								516
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/Users/chrisparsons/Desktop/alice_hart_food/css/sass/partials/_header.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5035,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3019,
+								3031
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2144.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/Users/chrisparsons/Desktop/alice_hart_food/css/sass/mixins/_mixins.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1366,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								311,
+								311
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 16.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/Users/chrisparsons/Desktop/alice_hart_food/css/sass/partials/_gallery.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2359,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1810,
+								1810
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1497.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/Users/chrisparsons/Desktop/alice_hart_food/css/sass/partials/_cta.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 365,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								289,
+								289
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/Users/chrisparsons/Desktop/alice_hart_food/js/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2096,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1295,
+								1295
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 459.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -579,6 +990,98 @@
 		"selected_items":
 		[
 			[
+				"book",
+				"book_01.html"
+			],
+			[
+				"in",
+				"index.html"
+			],
+			[
+				"sty",
+				"food-styling.html"
+			],
+			[
+				"boo",
+				"books.html"
+			],
+			[
+				"books.ht",
+				"books.html"
+			],
+			[
+				"anim",
+				"css/sass/partials/_animate.scss"
+			],
+			[
+				"mix",
+				"css/sass/mixins/_mixins.scss"
+			],
+			[
+				"col",
+				"css/sass/mixins/_colour_palette.scss"
+			],
+			[
+				"colo",
+				"css/sass/mixins/_colour_palette.scss"
+			],
+			[
+				"cta",
+				"css/sass/partials/_cta.scss"
+			],
+			[
+				"hold",
+				"holding.html"
+			],
+			[
+				"ga",
+				"css/sass/partials/_gallery.scss"
+			],
+			[
+				"mixi",
+				"css/sass/mixins/_mixins.scss"
+			],
+			[
+				"animate",
+				"css/sass/partials/_animate.scss"
+			],
+			[
+				"header",
+				"css/sass/partials/_header.scss"
+			],
+			[
+				"homep",
+				"css/sass/partials/_homepage.scss"
+			],
+			[
+				"alice",
+				"css/sass/aliceHart.scss"
+			],
+			[
+				"footer.scs",
+				"css/sass/partials/_footer.scss"
+			],
+			[
+				"frame",
+				"css/sass/partials/_framework.scss"
+			],
+			[
+				"mi",
+				"css/sass/mixins/_mixins.scss"
+			],
+			[
+				"main.js",
+				"js/main.js"
+			],
+			[
+				"ind",
+				"index.html"
+			],
+			[
+				"header.scs",
+				"css/sass/partials/_header.scss"
+			],
+			[
 				"animate.scs",
 				"alice_hart/css/sass/partials/_animate.scss"
 			],
@@ -591,28 +1094,8 @@
 				"alice_hart/css/sass/partials/_holding.scss"
 			],
 			[
-				"header",
-				"alice_hart/css/sass/partials/_header.scss"
-			],
-			[
 				"color",
 				"alice_hart/css/sass/mixins/_colour_palette.scss"
-			],
-			[
-				"main.js",
-				"alice_hart/js/main.js"
-			],
-			[
-				"frame",
-				"alice_hart/css/sass/partials/_framework.scss"
-			],
-			[
-				"alice",
-				"alice_hart/css/sass/aliceHart.scss"
-			],
-			[
-				"mix",
-				"alice_hart/css/sass/mixins/_mixins.scss"
 			],
 			[
 				"inde",
@@ -657,10 +1140,6 @@
 			[
 				"faq",
 				"src/faq.html"
-			],
-			[
-				"header.scs",
-				"dev/scss/components/header.scss"
 			],
 			[
 				"transa",
@@ -793,10 +1272,6 @@
 			[
 				"butto",
 				"dev/scss/base/_button.scss"
-			],
-			[
-				"footer.scs",
-				"dev/scss/components/footer.scss"
 			],
 			[
 				"footer.html",
@@ -1025,70 +1500,6 @@
 			[
 				"forms.ht",
 				"src/forms.html"
-			],
-			[
-				"header.scss",
-				"dev/scss/components/header.scss"
-			],
-			[
-				"heading",
-				"src/heading.html"
-			],
-			[
-				"articl",
-				"dev/scss/components/newsarticle.scss"
-			],
-			[
-				"news.htm",
-				"src/news.html"
-			],
-			[
-				"header.sc",
-				"dev/scss/components/header.scss"
-			],
-			[
-				"vali",
-				"node_modules/yargs/lib/validation.js"
-			],
-			[
-				"gif",
-				"dev/scss/components/gifting.scss"
-			],
-			[
-				"newsar",
-				"dev/scss/components/newsarticle.scss"
-			],
-			[
-				"news",
-				"src/newsarticle.html"
-			],
-			[
-				"newsa",
-				"dev/scss/components/newsarticle.scss"
-			],
-			[
-				"forms.scs",
-				"dev/scss/vendor/bootstrap/_forms.scss"
-			],
-			[
-				"varia",
-				"dev/scss/utils/_variables.scss"
-			],
-			[
-				"giftingfour",
-				"src/gifting/egiftingfour.html"
-			],
-			[
-				"eg",
-				"src/gifting/egiftingone.html"
-			],
-			[
-				"gifting.scs",
-				"dev/scss/components/gifting.scss"
-			],
-			[
-				"global.j",
-				"src/js/app/global.js"
 			]
 		],
 		"width": 0.0
@@ -1096,9 +1507,13 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "",
+		"last_filter": "aem",
 		"selected_items":
 		[
+			[
+				"aem",
+				"~/Sites/sublime/costa-global.sublime-project"
+			],
 			[
 				"alc",
 				"~/Desktop/a/ah.sublime-workspace"
@@ -1136,10 +1551,6 @@
 				"~/Sites/sublime/costa-france.sublime-project"
 			],
 			[
-				"aem",
-				"~/Sites/sublime/costa-global.sublime-project"
-			],
-			[
 				"costa ",
 				"~/Sites/sublime/costa-france.sublime-project"
 			],
@@ -1166,7 +1577,7 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 245.0,
 	"status_bar_visible": true,
 	"template_settings":
